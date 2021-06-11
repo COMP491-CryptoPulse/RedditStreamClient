@@ -20,7 +20,7 @@ def start():
             "selftext": submission.selftext,
             "time": int(submission.created_utc)
         }
-        requests.post("http://127.0.0.1:5000/stream/reddit", json=post)
+        requests.post("https://cryptopulse.in/stream/reddit", json=post)
 
 
 if __name__ == "__main__":
